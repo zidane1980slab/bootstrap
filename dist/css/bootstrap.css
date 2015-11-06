@@ -5742,6 +5742,11 @@ a.bg-danger:focus, a.bg-danger:hover {
   background-color: #c9302c;
 }
 
+.m-x-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
 .m-a-0 {
   margin: 0 !important;
 }
@@ -5772,39 +5777,34 @@ a.bg-danger:focus, a.bg-danger:hover {
   margin-bottom: 0 !important;
 }
 
-.m-a {
+.m-a-sm {
   margin: 1rem !important;
 }
 
-.m-t {
+.m-t-sm {
   margin-top: 1rem !important;
 }
 
-.m-r {
+.m-r-sm {
   margin-right: 1rem !important;
 }
 
-.m-b {
+.m-b-sm {
   margin-bottom: 1rem !important;
 }
 
-.m-l {
+.m-l-sm {
   margin-left: 1rem !important;
 }
 
-.m-x {
+.m-x-sm {
   margin-right: 1rem !important;
   margin-left: 1rem !important;
 }
 
-.m-y {
+.m-y-sm {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
-}
-
-.m-x-auto {
-  margin-right: auto !important;
-  margin-left: auto !important;
 }
 
 .m-a-md {
@@ -5897,32 +5897,32 @@ a.bg-danger:focus, a.bg-danger:hover {
   padding-bottom: 0 !important;
 }
 
-.p-a {
+.p-a-sm {
   padding: 1rem !important;
 }
 
-.p-t {
+.p-t-sm {
   padding-top: 1rem !important;
 }
 
-.p-r {
+.p-r-sm {
   padding-right: 1rem !important;
 }
 
-.p-b {
+.p-b-sm {
   padding-bottom: 1rem !important;
 }
 
-.p-l {
+.p-l-sm {
   padding-left: 1rem !important;
 }
 
-.p-x {
+.p-x-sm {
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
 
-.p-y {
+.p-y-sm {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
