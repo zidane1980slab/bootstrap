@@ -60,6 +60,28 @@ $enable-grid-classes:       true !default;
 $spacer:                     1rem !default;
 $spacer-x:                   $spacer !default;
 $spacer-y:                   $spacer !default;
+$spacers: (
+  0: (
+    x:   0,
+    y:   0,
+    all: 0
+  ),
+  sm: (
+    x:   $spacer-x,
+    y:   $spacer-y,
+    all: $spacer
+  ),
+  md: (
+    x:   ($spacer-x * 1.5),
+    y:   ($spacer-y * 1.5),
+    all: ($spacer * 1.5)
+  ),
+  lg: (
+    x:   ($spacer-x * 3),
+    y:   ($spacer-y * 3),
+    all: ($spacer * 3)
+  )
+) !default;
 $border-width:               1px !default;
 
 
